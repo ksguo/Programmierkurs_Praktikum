@@ -75,7 +75,7 @@ public class Test2 {
 
         int minMoves = test.minMoves(0, 3);
         System.out.println("Minimum moves required to control the piece : " + minMoves);
-
+           System.out.println("test fetch function: ");
 
     }
 
