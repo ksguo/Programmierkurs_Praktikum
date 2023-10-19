@@ -7,7 +7,7 @@ import java.awt.event.*;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+
 
 public class Menütafel extends JPanel {
 
@@ -539,6 +539,8 @@ fenster.getAnzeigetafel().getSpielBrettPanel().clearPreviousSizes();
     // 定义一个暂停的方法
     public void pauseTimer() {
         if(timer != null && timer.isRunning()) {
+
+
             timer.stop();
 
 
